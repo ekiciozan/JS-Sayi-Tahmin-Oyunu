@@ -39,7 +39,6 @@ document.querySelector('.check').addEventListener('click',function(){
         {
             displayMessage('Oyunu kaybettin :( ');
             document.querySelector('.score').textContent = 0;
-        }
-        
+        }  
     }
 });
